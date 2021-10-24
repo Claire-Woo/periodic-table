@@ -1,0 +1,33 @@
+body {
+    color: rgb(255, 253, 253);
+    background: rgb(32, 76, 76);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+td {
+    width: 4.5vw;
+    height:4.5vw;
+    border: 1px dotted white;
+    text-align: center; 
+    background: rgb(6, 10, 70);
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+
+}
+td:empty {
+    visibility: hidden;
+}
+td:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+
+
+}
